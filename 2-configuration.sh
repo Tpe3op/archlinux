@@ -23,8 +23,8 @@ hwclock --systohc
 # ------------------------------------------------------
 # Update reflector
 # ------------------------------------------------------
-echo "Start reflector..."
-reflector -c "Serbia," -p https -a 3 --sort rate --save /etc/pacman.d/mirrorlist
+# echo "Start reflector..."
+# reflector -c "Serbia," -p https -a 3 --sort rate --save /etc/pacman.d/mirrorlist
 
 # ------------------------------------------------------
 # Synchronize mirrors
